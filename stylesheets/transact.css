@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,600;1,400;1,700;1,900&display=swap");
+
+* {
+  font-family: Montserrat, "Times New Roman";
+  transition: 0.2s linear;
+  margin-right:3rem;
+    margin-left:2rem;
+}
+
+form select {
+  width: 300px;
+  margin-bottom: 165px;
+  border: 2px solid black;
+  border-radius: 8px;
+  margin-left: 290px;
+}
+
+.input-form {
+  width: 300px;
+  margin-bottom: 165px;
+  border: 2px solid black;
+  border-radius: 8px;
+  margin-left: 60px;
+  margin-right: 30px;
+  padding-left: 10px;
+}
+
+.body-container button {
+  appearance: none;
+  background-color: #3f3d56;
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, 0.1) 0 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 6px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.body-container button:focus:not(:focus-visible):not(.focus-visible) {
+  box-shadow: none;
+  outline: none;
+}
+
+.body-container button:hover {
+  background-color: rgb(88, 88, 88);
+}
+
+.body-container button:disabled {
+  background-color: #94d3a2;
+  border-color: rgba(27, 31, 35, 0.1);
+  color: rgba(255, 255, 255, 0.8);
+  cursor: default;
+}
+
+.body-container button:active {
+  background-color: #298e46;
+  box-shadow: rgba(20, 70, 32, 0.2) 0 1px 0 inset;
+}
+
+
+#error{
+  color: red;
+  font-size: 12px;
+  display: inline;
+margin-left: 350px;
+}
+
+table{
+   animation:fadeInAnimation 1.5s ease; 
+}
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

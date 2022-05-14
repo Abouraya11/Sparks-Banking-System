@@ -1,0 +1,135 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,600;1,400;1,700;1,900&display=swap");
+
+* {
+  font-family: Montserrat, "Times New Roman";
+  transition: 0.2s linear;
+  margin-right: 3rem;
+  margin-left: 2rem;
+}
+
+.main {
+  display: flex;
+  width: 80%;
+height:100%;
+  border: 2px solid black;
+  margin: auto;
+  margin-top: 5rem;
+  margin-bottom: 7rem;
+  box-shadow: 20px 50px 78px #888888;
+  animation: fadeInAnimation 1.5s ease;
+}
+
+
+
+.myphoto {
+  width:50%;
+  margin-left: 0;
+   margin-right: 0;
+   
+}
+.right-submain {
+width:50%;
+margin-left:7%;
+  
+}
+.right-submain img {
+  margin-left: 12vw;
+  margin-right: auto;
+  margin-top: 2rem;
+  
+}
+
+.data-container {
+  margin-top: 4vh;
+  margin-left: -0.5rem;
+
+  
+}
+
+
+li {
+  font-size: 17px;
+  font-weight: 600;
+  margin-top: 1rem;
+  margin-left: 0;
+}
+ul{
+    margin-right:0;
+}
+
+p {
+  color: #888888;
+  width:80%;
+  text-align:justify;
+  margin-right:0;
+}
+li h1 {
+  color: #888888;
+  margin-top: 0%;
+  font-weight: 500;
+}
+
+.intro-social {
+  display: flex;
+  margin-left: 4.3rem;
+  width: 20%;
+  margin-right: 0;
+}
+.intro-social li {
+  width: 1%;
+}
+.intro-social li a,
+.intro-social li a:visited {
+  color: black;
+}
+.intro-social li a:hover,
+.intro-social li a:focus {
+  color: #888888;
+}
+
+a.button,
+button {
+  display: inline-block;
+  font-size: 1rem;
+  text-transform: uppercase;
+  height: 5.4rem;
+  line-height: 4.5rem;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  margin-left: 7rem;
+  width: 40%;
+  height: 10%;
+  padding: auto;
+  background: #d8d8d8;
+  color: #313131;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+  white-space: nowrap;
+  border: none;
+
+  transition: all 0.3s ease-in-out;
+}
+
+.button.button-primary,
+a.button.button-primary,
+button.button-primary {
+  background: #3f3d56;
+  color: #ffffff;
+}
+.button.button-primary:hover,
+a.button.button-primary:hover,
+.button.button-primary:focus {
+  background: #888888;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+

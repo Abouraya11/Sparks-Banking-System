@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,600;1,400;1,700;1,900&display=swap");
+
+* {
+  font-family: Montserrat, "Times New Roman";
+  transition: 0.2s linear;
+  margin-right:3rem;
+    margin-left:2rem;
+}
+
+.body-container {
+  display: inline-flex;
+  flex-direction: row;
+margin-top:30px;
+  margin-left: 70px;
+  
+}
+.body-container a {
+  color: antiquewhite;
+  width: 28%;
+  height: 20%;
+
+  text-align: center;
+}
+
+.body-container button {
+  width: 35%;
+  height: 10%;
+  margin-top: 20px;
+  margin-left:-30px;
+}
+
+.body-container h3 {
+  font-size: 22px;
+  margin-top: 120px;
+  margin-bottom: 50px;
+}
+.body-img {
+  height: 38%;
+  width: 38%;
+  margin-right: 80px;
+  animation: slideIn 1.5s ease-in-out forwards;
+}
+.quote {
+  transform: translateY(1000px);
+  animation: slideUp 0.8s ease forwards 0.5s;
+}
+
+/* CSS */
+.body-container button {
+  appearance: none;
+  background-color: #3f3d56;
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, 0.1) 0 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 6px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+  transform: translateY(1000px);
+  animation: slideUp 0.8s ease-in-out forwards 0.8s;
+}
+
+.body-container button:focus:not(:focus-visible):not(.focus-visible) {
+  box-shadow: none;
+  outline: none;
+}
+
+.body-container button:hover {
+  background-color: rgb(88, 88, 88);
+}
+
+.body-container button:disabled {
+  background-color: #94d3a2;
+  border-color: rgba(27, 31, 35, 0.1);
+  color: rgba(255, 255, 255, 0.8);
+  cursor: default;
+}
+
+.body-container button:active {
+ 
+  box-shadow: rgba(20, 70, 32, 0.2) 0 1px 0 inset;
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(500px) scale(0.2);
+  }
+  100% {
+    transform: translateX(0px) scale(1);
+  }
+}
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(300px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
